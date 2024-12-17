@@ -1,1 +1,89 @@
+html {
+  height: 100%;
+  width: 100%;
+}
 
+body{
+  height:100%;
+  margin: 0;
+}
+
+
+.show {
+  display:block
+}
+
+.hide {
+  display:none
+}
+
+.box {
+  height: 400px;
+  width:  800px;
+  border: solid 3px black;
+}
+
+.red {
+background-color:white
+}
+
+.blue {
+background-color:black;
+}
+
+.yellow {
+background-color:green;
+}
+
+.green{
+background-color:red;
+}
+
+.purple{
+background-color:lightblue;
+}
+
+.header{
+margin-left:auto;
+margin-right:auto;
+width: 200px
+}
+
+.button{
+  background: white;
+  Width: 90px;
+  transition: .5s;
+}
+
+.button:hover{
+  background: grey;
+  Width: 90px;
+  transition: .5s;
+}
+
+.NZtext {
+  color: white;
+}
+
+.SAtext {
+  color:red
+}
+
+.Tongatext {
+  color:black;
+}
+
+.homepage {
+  width:100%;
+  length:100%;
+}
+
+.SouthAfrica {
+  width: 100%;
+  length:100%;
+}
+
+.Tongapic {
+  width:100%;
+  length:100%;
+}

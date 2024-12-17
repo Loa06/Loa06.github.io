@@ -1,13 +1,71 @@
 <html>
 
 <head>
-
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>replit</title>
+<link href="styles.css" rel="stylesheet"
+type="text/css"/>
 </head>
 
 <body>
+<script src="script.js"></script>
 
+<div class="header">
+Rugby Nations of the World
+</div>
 
-Hello World!
+<div>
+<button class="button" onclick="showit('div1')">Home</button>
+<button class="button" onclick="showit('div2')">New Zealand</button>
+<button class="button" onclick="showit('div3')">South Africa</button>
+<button class="button" onclick="showit('div4')">Tonga</button>
+<button class="button" onclick="showit('div5')">Learning About the Sport</button>
+</div>
+
+<div id='div1' style="display:block">
+  <div class="box red">
+    <div class="home">
+    Welcome! This is a website designated to help inform people about the beautiful sport of rugby.
+    </div> 
+       <img class="homepage" src="https://i.postimg.cc/wTrPVt86/IMG-0361.jpg">
+  </div>
+</div>
+
+<div id='div2' style="display:none">
+  <div class="box blue">
+     <div class="NZtext">
+     New Zealand is considered by many as the golden boy of rugby teams. New zealand has always been a team that has shown skill and grit on the pitch.
+     </div>
+     <img class="New Zealand" src="https://i.postimg.cc/Y0mrqjV1/IMG-0360.jpg">
+  </div>
+</div>
+
+<div id='div3' style="display:none">
+  <div class="box yellow">
+     <div class="SAtext">
+     South Africa is what most consider the powehouse of international rugby.
+     </div>
+        <img class="SouthAfrica" src="https://i.postimg.cc/NMkV8tHW/IMG-0362.jpg">
+  </div>
+</div>
+
+<div id='div4' style="display:none">
+  <div class="box green">
+     <div class="Tongatext">
+     Tonga is a team based in the pacific ocean from the counrty of Tonga. They're know for always having big, fearsome, behemoths type of players.
+     </div>
+     <img class="Tongapic" src="https://i.postimg.cc/Y2nyr4S1/IMG-0363.jpg">
+  </div>
+</div>
+
+<div id='div5' style="display:none">
+  <div class="box purple">
+     <div class="learning">
+     Rugby is a brutal gentlemen's sport.
+     </div>
+  </div>
+</div>
 
 </body>
 

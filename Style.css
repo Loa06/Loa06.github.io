@@ -61,6 +61,21 @@ width: 200px
   transition: .5s;
 }
 
+.homepage{
+  width:100%;
+  length:100%;
+}
+
+.SouthAfrica {
+  width:100%;
+  length:100%;
+}
+
+.Tongapic {
+  width:100%;
+  length:100%;
+}
+
 .NZtext {
   color: white;
 }
@@ -71,19 +86,4 @@ width: 200px
 
 .Tongatext {
   color:black;
-}
-
-.homepage {
-  width:100%;
-  length:100%;
-}
-
-.SouthAfrica {
-  width: 100%;
-  length:100%;
-}
-
-.Tongapic {
-  width:100%;
-  length:100%;
 }
